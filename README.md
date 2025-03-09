@@ -88,5 +88,5 @@ Method  |	Endpoint	        |   Description	     |   Auth Required|
 
 
 **Testing**
-    ```bash
-    php artisan serve
+```bash
+php artisan serve
