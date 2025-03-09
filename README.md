@@ -54,11 +54,11 @@ A RESTful API for task management with comments, authentication, and notificatio
 **Authentication** 
 Colons can be used to align columns.
 
-| Method        | Endpoint           | Description   |    Auth Required|
-| ------------- |:-------------:| -----:|-----:|-----:|
-| POST      | /api/register | Register new user  | No |
-| POST      | /api/login      |   Login user  | No |
-| POST | /api/logout      |    Logout user | Yes |
+| Method        | Endpoint      | Description        |    Auth Required|
+| :------------ |:------------- | :------------------|:--------:|
+| POST          | /api/register | Register new user  | No |
+| POST          | /api/login    |   Login user       | No |
+| POST          | /api/logout   |    Logout user     | Yes |
 
 
 |    Method	|    Endpoint	    |  Description          |   Auth Required |
