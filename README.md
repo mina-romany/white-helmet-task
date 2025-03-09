@@ -86,6 +86,7 @@ Method  |	Endpoint	        |   Description	     |   Auth Required|
 |PUT	 |   /api/comments/{id}	 |   Update comment	        |   Yes
 |DELETE	 |   /api/comments/{id}	 |   Delete comment	        |   Yes
 
+
 **Testing**
     ```bash
     php artisan serve
