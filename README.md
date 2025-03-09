@@ -68,23 +68,23 @@ A RESTful API for task management with comments, authentication, and notificatio
 **Tasks**
 
 Method  |	Endpoint	        |   Description	     |   Auth Required|
-|:------|:----------------------|:-------------------|:-----------------------|
-|GET	    |   /api/tasks	        |    List all tasks  |   Yes|
+|:------|:----------------------|:-------------------|:----------------------:|
+|GET	|   /api/tasks	        |    List all tasks  |   Yes|
 |POST	|   /api/tasks	        |    Create new task |	 Yes|
-|GET	    |   /api/tasks/{id}	    |    Get single task |	 Yes|
-|PUT	    |   /api/tasks/{id}	    |    Update task	 |   Yes|
+|GET	|   /api/tasks/{id}	    |    Get single task |	 Yes|
+|PUT	|   /api/tasks/{id}	    |    Update task	 |   Yes|
 |DELETE	|   /api/tasks/{id}     |	 Delete task	 |   Yes|
-|GET     |   /api/tasks/mytasks  |    Get my tasks    |   Yes|
+|GET    |   /api/tasks/mytasks  |    Get my tasks    |   Yes|
 
 
 **Comments**
----------------------------------------------------------------------------
-Method  |	Endpoint	         |    Description	        | Auth Required
----------------------------------------------------------------------------
-GET	    |   /api/comments/{id}	 |   List single comment    |	Yes
-POST	|   /api/comments	     |   Create comment	        |   Yes
-PUT	    |   /api/comments/{id}	 |   Update comment	        |   Yes
-DELETE	|   /api/comments/{id}	 |   Delete comment	        |   Yes
+
+|Method  |	Endpoint	         |    Description	        | Auth Required
+|:------ |:----------------------|:-------------------------|:--------------------:|
+|GET	 |   /api/comments/{id}	 |   List single comment    |	Yes
+|POST	 |   /api/comments	     |   Create comment	        |   Yes
+|PUT	 |   /api/comments/{id}	 |   Update comment	        |   Yes
+|DELETE	 |   /api/comments/{id}	 |   Delete comment	        |   Yes
 
 **Testing**
     ```bash
