@@ -54,10 +54,10 @@ A RESTful API for task management with comments, authentication, and notificatio
 **Authentication** 
 --------------------------------------------------------------------------
 |    Method	|    Endpoint	    |  Description          |   Auth Required |
-|:---------: ------------------------------------------------------------:|
+|:---------:|: ----------------:|:---------------------:|----------------:|
 |    POST   |	/api/register   |	Register new user   |   No            |
 |    POST	|   /api/login	    |   Login user          |   No            |
-|    POST	|   /api/logout	|   Logout user             |   Yes           |
+|    POST	|   /api/logout	    |   Logout user         |   Yes           |
 
 **Required Headers**
     ```bash
