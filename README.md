@@ -52,7 +52,7 @@ A RESTful API for task management with comments, authentication, and notificatio
 ## API Documentation
 
 **Authentication** 
---------------------------------------------------------------------------
+
 |    Method	|    Endpoint	    |  Description          |   Auth Required |
 |:---------:|: ----------------:|:---------------------:|----------------:|
 |    POST   |	/api/register   |	Register new user   |   No            |
