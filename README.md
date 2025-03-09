@@ -52,7 +52,6 @@ A RESTful API for task management with comments, authentication, and notificatio
 ## API Documentation
 
 **Authentication** 
-Colons can be used to align columns.
 
 | Method        | Endpoint      | Description        |    Auth Required|
 | :------------ |:------------- | :------------------|:--------:|
@@ -61,27 +60,21 @@ Colons can be used to align columns.
 | POST          | /api/logout   |    Logout user     | Yes |
 
 
-|    Method	|    Endpoint	    |  Description          |   Auth Required |
-|:---------:|: ----------------:|:---------------------:|----------------:|
-|    POST   |	/api/register   |	Register new user   |   No            |
-|    POST	|   /api/login	    |   Login user          |   No            |
-|    POST	|   /api/logout	    |   Logout user         |   Yes           |
-
 **Required Headers**
     ```bash
     Accept: application/json
     Content-Type: application/json
 
 **Tasks**
------------------------------------------------------------------------
-Method  |	Endpoint	        |   Description	     |   Auth Required
------------------------------------------------------------------------
-GET	    |   /api/tasks	        |    List all tasks  |   Yes
-POST	|   /api/tasks	        |    Create new task |	 Yes
-GET	    |   /api/tasks/{id}	    |    Get single task |	 Yes
-PUT	    |   /api/tasks/{id}	    |    Update task	 |   Yes
-DELETE	|   /api/tasks/{id}     |	 Delete task	 |   Yes
-GET     |   /api/tasks/mytasks  |    Get my tasks    |   Yes
+
+Method  |	Endpoint	        |   Description	     |   Auth Required|
+|:------|:----------------------|:-------------------|:-----------------------|
+|GET	    |   /api/tasks	        |    List all tasks  |   Yes|
+|POST	|   /api/tasks	        |    Create new task |	 Yes|
+|GET	    |   /api/tasks/{id}	    |    Get single task |	 Yes|
+|PUT	    |   /api/tasks/{id}	    |    Update task	 |   Yes|
+|DELETE	|   /api/tasks/{id}     |	 Delete task	 |   Yes|
+|GET     |   /api/tasks/mytasks  |    Get my tasks    |   Yes|
 
 
 **Comments**
