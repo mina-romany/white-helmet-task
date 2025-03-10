@@ -51,6 +51,11 @@ A RESTful API for task management with comments, authentication, and notificatio
 
 ## API Documentation
 
+**Required Headers**
+ ```bash
+ Accept: application/json
+ Content-Type: application/json
+
 **Authentication** 
 
 | Method        | Endpoint      | Description        |    Auth Required|
@@ -59,11 +64,6 @@ A RESTful API for task management with comments, authentication, and notificatio
 | POST          | /api/login    |   Login user       | No |
 | POST          | /api/logout   |    Logout user     | Yes |
 
-
-**Required Headers**
-     ```bash
-     Accept: application/json
-     Content-Type: application/json
 
 **Tasks**
 
