@@ -61,9 +61,9 @@ A RESTful API for task management with comments, authentication, and notificatio
 
 
 **Required Headers**
- ```bash
- Accept: application/json
- Content-Type: application/json
+     ```bash
+     Accept: application/json
+     Content-Type: application/json
 
 **Tasks**
 
