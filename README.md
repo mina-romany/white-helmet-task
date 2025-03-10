@@ -12,7 +12,7 @@ A RESTful API for task management with comments, authentication, and notificatio
 - API authentication using Laravel Sanctum
 - Unit & Feature tests
 - Queue system for background jobs
-- Docker support (optional)
+- Caching using Memcached
 
 ## Prerequisites
 
